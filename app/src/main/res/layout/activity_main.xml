@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ListView
+
+        android:id="@+id/listviewSinhVien"
+        android:layout_width="399dp"
+        android:layout_height="615dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="413dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/buttonhoten"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Họ tên"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/buttonmonhoc"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Môn Học"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/buttonquequan"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Quê Quán"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/buttonnamsinh"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Năm Sinh"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
